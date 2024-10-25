@@ -4,10 +4,17 @@
 
 /* Font */
 :root {
+  /*
   --bs-font-sans-serif: "Vazirmatn";
   --bs-body-font-family: "Vazirmatn";
   --bs-btn-font-family: "Vazirmatn";
   font-family: "Vazirmatn";
+  */
+
+  --bs-font-sans-serif: "Open Sans";
+  --bs-body-font-family: "Open Sans";
+  --bs-btn-font-family: "Open Sans";
+  font-family: "Open Sans";
 }
 
 /* Colors */
@@ -114,9 +121,19 @@ header.masthead {
 }
 
 .display-font {
-    font-family: "Caveat";
+    /*font-family: "Caveat";*/
+    font-family: "Comfortaa" !important;
+}
+
+.header-font {
+    font-family: "Montserrat" !important;
 }
 
 .shadowed {
     text-shadow: 1px 1px 2px var(--bs-black), 3px 3px 6px var(--bs-black);
+}
+
+.img-inline {
+    max-width: 9%;
+    max-height: 100%;
 }
